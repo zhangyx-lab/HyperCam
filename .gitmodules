@@ -1,0 +1,9 @@
+[submodule "UVC_Driver"]
+	path = UVC_Driver
+	url = git@github.com:zhangyx-lab/HyperCam-UVC-Driver.git
+[submodule "Server"]
+	path = Server
+	url = git@github.com:zhangyx-lab/HyperCam-Server.git
+[submodule "WebUI"]
+	path = WebUI
+	url = git@github.com:zhangyx-lab/HyperCam-WebUI.git
