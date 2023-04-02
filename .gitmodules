@@ -4,6 +4,7 @@
 [submodule "Server"]
 	path = Server
 	url = git@github.com:zhangyx-lab/HyperCam-Server.git
+	branch = v2
 [submodule "WebUI"]
 	path = WebUI
 	url = git@github.com:zhangyx-lab/HyperCam-WebUI.git
