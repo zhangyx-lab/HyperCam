@@ -1,10 +1,17 @@
 # FOCUS Lab, University of Florida ECE
 # Author: Yuxuan Zhang
 
+TARGETS += deploy
+
+# Populate JSON configuration for server
+define SERVER_CONFIG_JSON:
+{
+	"port": 8080
+}
+endef
+# 
+
 deploy:
-	@echo "Building WebUI"
-	cd WebUI; npm run build;
-	@echo "Linking static contents"
-	ln -sfT $(PWD)/WebUI/var/dist $(PWD)/Server/var/web
+	@echo TODO
 
 .PHONY: deploy
